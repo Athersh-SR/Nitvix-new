@@ -1,8 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-*img{
+
+*img {
     background-color: unset;
 }
+
 header button {
     border: 1px solid #6200EE;
     font-size: 16px;
@@ -11,32 +13,39 @@ header button {
     border-radius: 5px;
     color: #622CD5;
 }
+
 ul {
     font-family: 'Plus Jakarta Sans', 'Inter';
     font-size: 16.27px;
     font-weight: 600;
     color: #484848;
 }
-.one{
+
+.one {
     background-color: rgb(114, 27, 88);
     padding-bottom: 111px
 }
-.one header nav button{
+
+.one header nav button {
     background-color: unset;
 }
-.one img{
-    background-color:unset;
+
+.one img {
+    background-color: unset;
 }
-.one .bdr{
+
+.one .bdr {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.one .bdr h1{
+
+.one .bdr h1 {
     border: 1px solid #714EBD;
 }
-.one .container .bdr h1{
-    font-family: 'Mulish',Arial,;
+
+.one .container .bdr h1 {
+    font-family: 'Mulish', Arial, ;
     font-weight: 300;
     font-size: 16px;
     color: #807a7a;
@@ -44,14 +53,16 @@ ul {
     padding: 6px 13px 6px 13px;
     border-radius: 8px;
 }
-.one .container h2{
+
+.one .container h2 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     color: #807a7a;
     font-size: 56px;
 }
-.one .container p{
-    font-family: 'Mulish',Arial;
+
+.one .container p {
+    font-family: 'Mulish', Arial;
     font-weight: 400;
     font-size: 20px;
     line-height: normal;
@@ -59,37 +70,43 @@ ul {
     color: #ACACAC;
     padding-top: 10px;
 }
-.one .buttons{
+
+.one .buttons {
     padding-top: 15px;
 }
-.one .buttons button{
+
+.one .buttons button {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
-    background: rgb(98,44,213);
+    background: rgb(98, 44, 213);
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
     padding: 7px 27px 7px 27px;
 }
-.one .buttons a{
+
+.one .buttons a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.two .container h1{
+
+.two .container h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 130%;
     letter-spacing: 2%;
 }
-.two .container p{
-    font-family: 'Mulish',Arial;
+
+.two .container p {
+    font-family: 'Mulish', Arial;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 2%;
 }
-.two .container .row h1{
+
+.two .container .row h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -97,99 +114,119 @@ ul {
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-.two .container .row p{
+
+.two .container .row p {
     color: #FFFFFF;
 }
-.two .container .row .col-lg-4{
+
+.two .container .row .col-lg-4 {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* width: 29.333333%; */
 }
-.two .container .row .col-lg-4 img{
+
+.two .container .row .col-lg-4 img {
     width: 100%;
     padding-top: 12px;
     padding-bottom: 12px
 }
-.two .container .row .col-lg-6 img{
+
+.two .container .row .col-lg-6 img {
     width: 100%;
 }
-.two .container .row .col-lg-6{
+
+.two .container .row .col-lg-6 {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     /* width: 48%; */
 }
-main{
+
+main {
     margin-top: 10%;
 }
-main h1{
+
+main h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 130%;
     letter-spacing: 2%;
 }
-main p{
-    font-family: 'Mulish',Arial;
+
+main p {
+    font-family: 'Mulish', Arial;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 2%;
 }
+
 main .text-center {
     text-align: left !important;
 }
+
 main .card {
-   border: none;
-} 
-main .card img{
+    border: none;
+}
+
+main .card img {
     margin-bottom: 6px;
 }
-.three h1{
+
+.three h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 130%;
     letter-spacing: 2%;
 }
-.three p{
-    font-family: 'Mulish',Arial;
+
+.three p {
+    font-family: 'Mulish', Arial;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 2%;
 }
-.three .cards{
-    display: flex!important;
-    flex-wrap: wrap!important;
+
+.three .cards {
+    display: flex !important;
+    flex-wrap: wrap !important;
 }
-.three .card h1{
+
+.three .card h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 2%;
 }
-.three .card{
+
+.three .card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.three .card img{
+
+.three .card img {
     width: 90%;
 }
-.three .card p{
-    font-family: 'Mulish',Arial;
+
+.three .card p {
+    font-family: 'Mulish', Arial;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 2%;
 }
-.three .cards .card button{
+
+.three .cards .card button {
     margin-top: 15px;
     background-color: #622CD5;
 }
-.three .buttons button{
+
+.three .buttons button {
     border: none;
     border-radius: 8px;
     background-color: #622CD5;
@@ -200,7 +237,8 @@ main .card img{
     letter-spacing: 0%;
     color: #FFFFFF;
 }
-.three .buttons a{
+
+.three .buttons a {
     color: #0D0F14;
     font-family: 'Helvetica', sans-serif;
     font-weight: 400;
@@ -211,7 +249,8 @@ main .card img{
     text-decoration-skip-ink: true;
     text-decoration-color: #6200EE;
 }
-.four a{
+
+.four a {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -221,35 +260,40 @@ main .card img{
     text-decoration-thickness: 10%;
     text-decoration-skip-ink: true;
 }
-.four h1{
+
+.four h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 50px;
     line-height: 130%;
     letter-spacing: 2%;
 }
-.four .accordion-button{
-    background-color: unset!important;
-    font-family: 'Mulish', sans-serif!important;
-    font-weight: 700!important;
-    font-size: 20px!important;
-    line-height: 150%!important;
-    letter-spacing: 2%!important;
+
+.four .accordion-button {
+    background-color: unset !important;
+    font-family: 'Mulish', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 150% !important;
+    letter-spacing: 2% !important;
 }
-.four .accordion-button:not(.collapsed){
-    color: unset!important;
-    background-color: unset!important;
-    font-family: 'Mulish', sans-serif!important;
-    font-weight: 700!important;
-    font-size: 20px!important;
-    line-height: 150%!important;
-    letter-spacing: 2%!important;
+
+.four .accordion-button:not(.collapsed) {
+    color: unset !important;
+    background-color: unset !important;
+    font-family: 'Mulish', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 150% !important;
+    letter-spacing: 2% !important;
 }
- .four .accordion-button:focus {
-    border-color:unset!important;
-    box-shadow: none!important;
-} 
-footer h1{
+
+.four .accordion-button:focus {
+    border-color: unset !important;
+    box-shadow: none !important;
+}
+
+footer h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
     font-size: 50px;
@@ -257,137 +301,165 @@ footer h1{
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer p{
-    font-family: 'Mulish', sans-serif!important;
+
+footer p {
+    font-family: 'Mulish', sans-serif !important;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttun input{
+
+footer .buttun input {
     background: none;
     border: 1px solid gray;
     color: #FFFFFF;
-    font-family: 'Mulish', sans-serif!important;
+    font-family: 'Mulish', sans-serif !important;
 }
-footer .buttun input::placeholder{
-    background: transparent!important;
-    font-family: 'Mulish', sans-serif!important;
+
+footer .buttun input::placeholder {
+    background: transparent !important;
+    font-family: 'Mulish', sans-serif !important;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttun button{
+
+footer .buttun button {
     border: none;
     background-color: #622CD5;
-    font-family: 'Mulish', sans-serif!important;
+    font-family: 'Mulish', sans-serif !important;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttun{
+
+footer .buttun {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-footer ul li a{
-    font-family: 'Mulish', sans-serif!important;
+
+footer ul li a {
+    font-family: 'Mulish', sans-serif !important;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .copyright{
-    font-family: 'Mulish', sans-serif!important;
+
+footer .copyright {
+    font-family: 'Mulish', sans-serif !important;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer{
+
+footer {
     background-image: url(../assets/footerbg.png);
     object-fit: cover;
 }
 
 @media screen and (max-width:700px) {
-    .one .container h2{
-      font-family: 'Helvetica', sans-serif!important;
-      font-weight: 600!important;
-      color: #807a7a!important;
-      font-size: 33px!important;
+    .one .container h2 {
+        font-family: 'Helvetica', sans-serif !important;
+        font-weight: 600 !important;
+        color: #807a7a !important;
+        font-size: 33px !important;
     }
+
     .one .container p {
-        font-family: 'Mulish', Arial!important;
-        font-weight: 400!important;
-        font-size: 15px!important;
-        line-height: normal!important;
-        letter-spacing: 2px!important;
-        color: #ACACAC!important;
-        padding-top: 10px!important;
+        font-family: 'Mulish', Arial !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: normal !important;
+        letter-spacing: 2px !important;
+        color: #ACACAC !important;
+        padding-top: 10px !important;
     }
+
     .one .buttons button {
-        font-family: 'Helvetica', sans-serif!important;
-        font-size: 18px!important;
-        background: rgb(98, 44, 213)!important;
-        color: #FFFFFF!important;
-        border: none!important;
-        border-radius: 10px!important;
-        padding: 7px 27px 7px 27px!important;
+        font-family: 'Helvetica', sans-serif !important;
+        font-size: 18px !important;
+        background: rgb(98, 44, 213) !important;
+        color: #FFFFFF !important;
+        border: none !important;
+        border-radius: 10px !important;
+        padding: 7px 27px 7px 27px !important;
     }
-    .one .launch{
-        margin-top: 64px!important;
+
+    .one .launch {
+        margin-top: 64px !important;
     }
-    .two .container h1{
-        font-size: 41px!important;
-        text-align: center!important;
+
+    .two .container h1 {
+        font-size: 41px !important;
+        text-align: center !important;
     }
-    .two .container p{
-        font-size:15px!important;
-        text-align: center!important;
+
+    .two .container p {
+        font-size: 15px !important;
+        text-align: center !important;
     }
+
     main h1 {
-        font-family: 'Helvetica', sans-serif!important;
-        font-weight: 700!important;
-        font-size: 38px!important;
+        font-family: 'Helvetica', sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 38px !important;
     }
+
     main p {
-        font-size: 17px!important;
-    }
-    .three h1{
-        margin-top: 8%!important;
-        font-size: 34px!important;
-    }
-    .three p{
-        font-size: 18px!important;
-    }
-    .three .cards{
-        margin-top: 31px!important;
-    }
-    .three .cards h1{
-        font-size: 23px !important;
-        font-family: 'Helvetica', sans-serif!important;
-    }
-    .three .buttons button{
-        font-size: 15px!important;
-    }
-    .four h1{
-        font-size: 37px!important;
-    }
-    .four .accordion-button{
         font-size: 17px !important;
     }
-    .footer h1{
-        font-size: 38px!important;
+
+    .three h1 {
+        margin-top: 8% !important;
+        font-size: 34px !important;
     }
-    .footer p{
-        font-size: 13px!important;
-        line-height: 26px!important;
+
+    .three p {
+        font-size: 18px !important;
+    }
+
+    .three .cards {
+        margin-top: 31px !important;
+    }
+
+    .three .cards h1 {
+        font-size: 23px !important;
+        font-family: 'Helvetica', sans-serif !important;
+    }
+
+    .three .buttons button {
+        font-size: 15px !important;
+    }
+
+    .four h1 {
+        font-size: 37px !important;
+    }
+
+    .four .accordion-button {
+        font-size: 17px !important;
+    }
+
+    footer h1 {
+        font-family: 'Helvetica', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 38px !important;
+        padding-bottom: 3%!important;
+    }
+
+    footer p {
+        font-size: 17px !important;
+        line-height: 26px !important;
+        padding-bottom: 4%!important;
     }
 }
