@@ -155,13 +155,13 @@ footer p{
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttons input{
+footer .buttun input{
     background: none;
     border: 1px solid gray;
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif!important;
 }
-footer .buttons input::placeholder{
+footer .buttun input::placeholder{
     background: transparent!important;
     font-family: 'Mulish', sans-serif!important;
     font-weight: 400;
@@ -170,7 +170,7 @@ footer .buttons input::placeholder{
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttons button{
+footer .buttun button{
     border: none;
     background-color: #622CD5;
     font-family: 'Mulish', sans-serif!important;
@@ -180,7 +180,7 @@ footer .buttons button{
     letter-spacing: 2%;
     color: #FFFFFF;
 }
-footer .buttons{
+footer .buttun{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +206,53 @@ footer{
     object-fit: cover;
 }
 
-/* margin-bottom: 10px;
-text-decoration-line: underline;
-text-decoration-color: blue;
-text-underline-offset: 15px; */
+@media screen and (max-width:700px){
+    .one h1{
+        font-size: 38px!important;
+    }
+    .one p{
+        font-size: 13px!important;
+    }
+    .one .start{
+        font-size: 18px!important;
+    }
+    .one .image {
+        width: 87%!important;
+    }
+    .two .heading{
+        font-size: 39px!important;
+    }
+    .two .card .card-text{
+        font-size: 17px!important;
+    }
+    .two .card label{
+        font-size: 13px!important;
+    }
+    .two .card button{
+        font-size: 15px!important;
+    }
+    .two .card .anchor{
+        font-size: 17px!important;
+    }
+    .three h1{
+        font-size: 34px!important;
+    }
+    .three .col-lg-6 img{
+        margin-bottom: 19px!important;
+    }
+    .three p{
+        font-size: 15px!important;
+    }
+    footer h1 {
+        font-family: 'Helvetica', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 38px !important;
+        padding-bottom: 3%!important;
+    }
+
+    footer p {
+        font-size: 17px !important;
+        line-height: 26px !important;
+        padding-bottom: 4%!important;
+    }
+}
