@@ -15,16 +15,22 @@ header button {
     border-radius: 5px;
     color: #622CD5;
 }
-ul {
-    font-family: 'Plus Jakarta Sans', 'Inter';
-    font-size: 16.27px;
-    font-weight: 600;
-    color: #484848;
+.one header .nav-link {
+    font-family: 'Plus Jakarta Sans', 'Inter'!important;
+    font-size: 16.27px!important;
+    font-weight: 600!important;
+    color: #484848!important;
 }
 .one{
-    background-color: rgb(114, 27, 88);
+   background-image: url(../assets/asset/bg2.png);
+    object-fit: cover;
     padding-bottom: 111px
 }
+.one {
+    position: relative;
+    box-shadow: inset 0px -85px 20px rgba(0, 0, 0, 455.1);
+}
+  
 .one header nav button{
     background-color: unset;
 }
