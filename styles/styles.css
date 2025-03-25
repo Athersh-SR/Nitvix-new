@@ -380,6 +380,7 @@ footer {
     background-image: url(../assets/footerbg.png);
     object-fit: cover;
 }
+
 @media screen and (max-width:600px){
     .two .container .row .col-lg-6 {
         display: flex;
@@ -393,7 +394,7 @@ footer {
         width: 100%!important;
     }
     .two .customize img {
-        width: 84% !important;
+        width: 69% !important;
     }
 }
 
