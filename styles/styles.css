@@ -149,10 +149,10 @@ header button {
     width: 47%!important;
 }
 .two .customize{
-    height: 317px!important;
+    height: 382px!important;
 }
 .two .customize img{
-    width: 47%!important;
+    width: 60%!important;
 }
 .two .container .row .col-lg-6 .col-lg-12{
     width: 96%!important;
@@ -399,7 +399,7 @@ footer {
         width: 100%!important;
     }
     .two .customize img {
-        width: 69% !important;
+        width: 100% !important;
     }
 }
 
