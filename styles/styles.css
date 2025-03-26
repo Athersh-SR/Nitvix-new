@@ -26,8 +26,7 @@ header button {
 }
 
 .one {
-    /* background-color: rgb(114, 27, 88); */
-    background-image: url(../assets/header.png);
+    background-image: url(../assets/header1.webp);
     object-fit: cover;
     padding-bottom: 111px
 }
