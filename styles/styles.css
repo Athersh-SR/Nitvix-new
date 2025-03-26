@@ -92,7 +92,10 @@ header button {
     color: #FFFFFF;
     text-decoration: none;
 }
-
+.two .web{
+    background-image: url(../assets/Card-bg.png);
+    object-fit: cover;
+}
 .two .container h1 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 700;
