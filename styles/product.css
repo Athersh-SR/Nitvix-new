@@ -22,7 +22,7 @@ header button {
     color: #484848!important;
 }
 .one{
-   background-image: url(../assets/asset/bg2.png);
+    background-image: url(../assets/asset/bg2.png);
     object-fit: cover;
     padding-bottom: 111px
 }
@@ -210,7 +210,7 @@ footer .copyright{
     color: #FFFFFF;
 }
 footer{
-    background-image: url(../assets/footerbg.png);
+    background-image: url(../assets/footerbg.webp);
     object-fit: cover;
 }
 
