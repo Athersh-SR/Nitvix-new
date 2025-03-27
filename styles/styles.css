@@ -538,3 +538,13 @@ footer {
         font-size: 16px!important;
     }
 }
+@media (min-width:320px) and (max-width:375px){
+    .two .container .row .customize h1{
+        margin-top: revert!important;
+    }
+}
+@media (min-width:375px) and (max-width:424px) {
+    .two .container .row .customize h1{
+        margin-top: auto!important;
+    }
+}
