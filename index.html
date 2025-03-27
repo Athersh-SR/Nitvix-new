@@ -330,7 +330,7 @@
           website building.</p>
         <div class="buttun gap-2">
           <input class="p-1" type="email" name="email" autocomplete="email" id="email" placeholder="Enter your email">
-          <button class="ps-3 pe-3 pt-1 pb-1">Subscribe</button>
+          <button class="ps-3 pe-3 pt-1 pb-1" id="subscribe">Subscribe</button>
         </div>
         <div style="padding-top: 8%;" class="d-flex justify-content-between">
           <ul class="list-inline">
@@ -346,6 +346,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script>
+      const email = document.getElementById('email');
+      const subscribe = document.getElementById('subscribe');
+  
+      if (subscribe) {
+          subscribe.addEventListener('click', () => {
+              if (email && email.value !== "") { 
+                  alert("Registration Successful!!!"); 
+              } else {
+                  alert("Please enter a valid email address.");
+              }
+          });
+      } else {
+          console.error("Error in Registering");
+      }
+  
+  </script>
 </body>
 
 </html>
