@@ -91,12 +91,6 @@ header button {
     border-radius: 10px;
     padding: 7px 27px 7px 27px;
 }
-
-.one .buttons a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
 .two .web {
     background-image: url(../assets/Card-bg.png);
     object-fit: cover;
