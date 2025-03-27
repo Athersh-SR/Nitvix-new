@@ -15,8 +15,8 @@ header button {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Helvetica', sans-serif;
-    border-radius: 5px;
-    color: #622CD5;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .one header .nav-link {
