@@ -527,3 +527,9 @@ footer {
         padding-bottom: 4% !important;
     }
 }
+
+@media screen and (width>=1440px) {
+    .two .customize img {
+        width: 59% !important;
+    }
+}
