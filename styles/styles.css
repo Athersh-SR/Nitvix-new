@@ -89,7 +89,7 @@ header button {
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    padding: 7px 27px 7px 27px;
+    /* padding: 7px 27px 7px 27px; */
 }
 .two .web {
     background-image: url(../assets/Card-bg.png);
@@ -254,7 +254,7 @@ main .card img {
     background-color: #622CD5;
     font-family: 'Helvetica', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px;  
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
