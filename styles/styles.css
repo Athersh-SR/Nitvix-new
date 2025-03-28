@@ -89,7 +89,7 @@ header button {
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    /* padding: 7px 27px 7px 27px; */
+    padding: 7px 27px 7px 27px;
 }
 .two .web {
     background-image: url(../assets/Card-bg.png);
